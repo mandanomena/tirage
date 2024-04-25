@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    height: 100dvh;
+    grid-template-columns:15% auto;
+    grid-template-rows: 10% auto;
+    font-family: inter;
+    font-weight: 900;
+}
+
+.navbar{
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    order: 2;
+}
+
+#resultat{
+    width:auto;
+    height: 100%;
+    display: flex;
+    background-color:white;
+    box-shadow: black 5px 5px 5px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(166, 100%, 37%,0.2);
+    order: 3;
+}
+
+#liste-numeros-tires{
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    font-size: large;
+    background-color: hsla(234, 85%, 45%,0.1);
+    font-size: 30px;
+    order: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: grey 1px 2px 3px;
+    background: linear-gradient(to left, hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: inter;
+}
+
+.dark-mode{
+    background-color: rgb(41, 40, 41);
+    color: white;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    color: beige;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    width: 350px;
+    height: 400px;
+    background-image: url("hacker.jpg");
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 20px;
+    color: black;
+}
