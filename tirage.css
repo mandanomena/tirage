@@ -19,7 +19,7 @@
 
 #resultat{
     width:auto;
-    height: 100%;
+    height: 800px;
     display: flex;
     background-color:white;
     box-shadow: black 5px 5px 5px;
@@ -57,4 +57,15 @@ button{
 .dark-mode{
     background-color: rgb(41, 40, 41);
     color: white;
+}
+ul{
+    list-style:decimal;
+}
+
+li{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    background-color: lawngreen;
+    border: solid 1px black;
 }
